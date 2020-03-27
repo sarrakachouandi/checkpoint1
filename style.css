@@ -1,0 +1,170 @@
+
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;
+background-color: rgba(231, 16, 195, 0.329);}
+
+.footer{
+text-align: center;
+padding-top: 30px;
+
+}
+
+.container{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	align-items: stretch;
+	
+width: 1510px;
+	padding-top: 50px;
+	
+}
+
+
+.container > div {
+	
+	align-items: stretch;
+	width: 700px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 15px;
+
+	
+  }
+
+.image{
+	margin-top: 30px;
+	margin-left: 50px;
+	
+	padding: 7px;
+	
+	width: 280px;
+}
+
+
+.p{
+	text-align: center;
+}
+
+
+.general{
+	font-size: 30px;
+text-decoration: underline;
+color: rgb(231, 28, 21);
+}
+
+.retr{
+	font-size: 30px;
+	font-style: bold;
+	font-family:Gabriola;
+	color: rgb(231, 28, 21);
+
+}
+.inst a:hover{
+
+	margin: auto;
+	width: 70px;
+	border: 2px solid rgb(226, 80, 80);
+	padding: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+
+.fb a:hover{
+
+
+
+	width: 70px;
+	background-color: greenyellow;
+	padding: 10px;
+
+	
+}
+
+.twit a:hover{
+	margin: auto;
+	width: 70px;
+	border: 2px solid rgb(226, 80, 80);
+	padding: 10px;
+
+}
+.vid{
+	width:98%;
+	height: 70%;
+	margin-left: 15px;
+	border: 1px solid rgb(99, 99, 238);
+	border-radius: 20px;
+	
+}
+
+.prtf{
+	font-size: 180px;
+	font-style: italic;
+	font-family:Gabriola;
+	color: rgb(231, 28, 21);
+margin-left:100px;
+margin-top: 100px;
+}
+
+.bgimg {
+	background-image: url("hands.png");
+	min-height: 550px;
+	border: 0px solid;
+	border-radius: 5px;
+
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+	position: relative;
+}
+
+.navbar {
+	width:60%;
+	
+	background-color: rgb(255, 194, 240);
+	overflow: auto;
+	margin-left: 40%;
+	border: 0px solid;
+	border-radius: 5px;
+
+	
+
+	
+	
+  }
+
+  .navbar a {
+	float: left;
+padding-bottom: 50px;
+	padding: 20px;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 15px;
+	width: 20%; /* Four links of equal widths */
+	text-align: center;
+	
+  }
+
+  .navbar a:hover {
+	background-color: rgb(238, 109, 180);
+  }
+
+  .navbar a.active {
+	background-color: rgb(238, 109, 180);
+  }
+
+
+  @media screen and (max-width: 500px) {
+	.navbar a {
+	  float: none;
+	  display: block;
+	  width: 100%;
+	  text-align: left;
+	  
+	}
+
